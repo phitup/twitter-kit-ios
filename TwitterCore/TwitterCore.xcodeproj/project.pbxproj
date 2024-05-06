@@ -1405,6 +1405,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				ja,
 				ko,
@@ -1715,6 +1716,7 @@
 					"$(TARGET_BUILD_DIR)/Headers/",
 					"$(TARGET_BUILD_DIR)/PrivateHeaders/",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Release;
 		};

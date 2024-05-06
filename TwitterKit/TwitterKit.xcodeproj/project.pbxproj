@@ -2978,6 +2978,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				ko,
 				ja,
@@ -3559,6 +3560,7 @@
 					"$(PROJECT_DIR)/../vendor",
 					"$(PROJECT_DIR)",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Release;
